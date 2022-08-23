@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+<body>
+    <div id="main">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="">
+                    <span class="icon"><i class="ri-apple-fill"></i></span>
+                    <span class="title"><h3>Brand Name</h3></span>
+                    </a>    
+                </li>
+                
+           
+                <li>
+                    <a href="">
+                    <span class="icon"><i class="ri-home-3-fill"></i></span>
+                    <span class="title">Dashboard</span>
+                    </a>    
+                </li>
+                
+          
+                <li>
+                    <a href="">
+                    <span class="icon"><i class="ri-user-fill"></i></span>
+                    <span class="title">Customer</span>
+                    </a>    
+                </li>
+                
+           
+                <li>
+                    <a href="">
+                    <span class="icon"><i class="ri-chat-1-fill"></i></span>
+                    <span class="title">Message</span>
+                    </a>    
+                </li>
+                
+          
+                <li>
+                    <a href="">
+                    <span class="icon"><i class="ri-question-fill"></i></span>
+                    <span class="title">Help</span>
+                    </a>    
+                </li>
+                
+                <li>
+                    <a href="">
+                    <span class="icon"><i class="ri-settings-3-fill"></i></span>
+                    <span class="title">Setting</span>
+                    </a>    
+                </li>
+                
+                <li>
+                    <a href="">
+                    <span class="icon"><i class="ri-lock-fill"></i></span>
+                    <span class="title">Password</span>
+                    </a>    
+                </li>
+                
+                <li>
+                    <a href="">
+                    <span class="icon"><i class="ri-logout-circle-r-fill"></i></span>
+                    <span class="title">Signout</span>
+                    </a>    
+                </li>
+                
+            </ul>
+        </div>
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle"  onclick = "toggleMenu();">
+                    <i class="ri-menu-line"></i>
+                </div>
+                <div class="search">
+                    <label>
+                        <input type="text" placeholder="Search here">
+                        <i class="ri-search-line"></i>
+                    </label>
+                </div>
+                <div class="user">
+                    <img src="https://images.unsplash.com/photo-1661123807934-fc637f27233d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0Nnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="">
+                </div>
+            </div>
+            <div class="cardbox">
+                <div class="card">
+                    <div>
+                        <div class="numbers">1,042</div>
+                        <div class="cardname">Daily Views</div>
+                    </div>
+                    <div class="iconbox">
+                        <i class="ri-eye-fill"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <div class="numbers">80</div>
+                        <div class="cardname">Sales</div>
+                    </div>
+                    <div class="iconbox">
+                        <i class="ri-shopping-cart-fill"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <div class="numbers">208</div>
+                        <div class="cardname">Comments</div>
+                    </div>
+                    <div class="iconbox">
+                        <i class="ri-chat-1-line"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <div class="numbers">$6,042</div>
+                        <div class="cardname">Earning</div>
+                    </div>
+                    <div class="iconbox">
+                        <i class="ri-money-dollar-circle-line"></i> 
+                    </div>
+                </div>
+            </div>
+            <div class="details">
+                <div class="recentorder">
+                    <div class="cardheders">
+                        <h2>Recent Order</h2>
+                        <a href="#" class="btn">View all</a>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Name</td>
+                                <td>Price</td>
+                                <td>Payment</td>
+                                <td>Status</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Star Refrigerator</td>
+                                <td>$1200</td>
+                                <td>Paid</td>
+                                <td><span class="status delivered">Delivered</span></td>
+                            </tr>
+                            <tr>
+                                <td>Window Coolers</td>
+                                <td>$110</td>
+                                <td>Due</td>
+                                <td><span class="status Pending">Pending</span></td>
+                            </tr>
+                            <tr>
+                                <td>Speakers</td>
+                                <td>$620</td>
+                                <td>Paid</td>
+                                <td><span class="status return">Return</span></td>
+                            </tr>
+                            <tr>
+                                <td>Laptop</td>
+                                <td>$6000</td>
+                                <td>Due</td>
+                                <td><span class="status inprogress">In Progress</span></td>
+                            </tr>
+                            <tr>
+                                <td>Star Refrigerator</td>
+                                <td>$1200</td>
+                                <td>Paid</td>
+                                <td><span class="status delivered">Delivered</span></td>
+                            </tr>
+                            <tr>
+                                <td>Window Coolers</td>
+                                <td>$110</td>
+                                <td>Due</td>
+                                <td><span class="status Pending">Pending</span></td>
+                            </tr>
+                            <tr>
+                                <td>Speakers</td>
+                                <td>$620</td>
+                                <td>Paid</td>
+                                <td><span class="status return">Return</span></td>
+                            </tr>
+                            <tr>
+                                <td>Laptop</td>
+                                <td>$6000</td>
+                                <td>Due</td>
+                                <td><span class="status inprogress">In Progress</span></td>
+                            </tr>
+                            <tr>
+                                <td>Watchs</td>
+                                <td>$680</td>
+                                <td>paid</td>
+                                <td><span class="status delivered">Delivered</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="recentcoustomer">
+                    <div class="cardheders">
+                        <h2>Recent coustomer</h2>
+                    </div>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td width="60px"><div class="imgbx"><img src="https://images.unsplash.com/photo-1661021826061-36f67726f9de?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1N3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt=""></div></td>
+                                <td><h4>David <br> <span>Italy</span></h4></td>
+                            </tr>
+                            <tr>
+                                <td width="60px"><div class="imgbx"><img src="https://images.unsplash.com/photo-1657299143437-b63ce1fc01aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw1OXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt=""></div></td>
+                                <td><h4>Jennifer Johnson <br> <span>spain</span></h4></td>
+                            </tr>
+                            <tr>
+                                <td width="60px"><div class="imgbx"><img src="https://images.unsplash.com/photo-1661115822445-f256bf65033e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt=""></div></td>
+                                <td><h4>Natalie Robinson <br> <span>USA</span></h4></td>
+                            </tr>
+                            <tr>
+                                <td width="60px"><div class="imgbx"><img src="https://images.unsplash.com/photo-1661125644816-f53f64ffe570?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3NHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt=""></div></td>
+                                <td><h4>John Ferguson <br> <span>New Zeland</span></h4></td>
+                            </tr>
+                            <tr>
+                                <td width="60px"><div class="imgbx"><img src="https://images.unsplash.com/photo-1661123807866-efa8dbf4f3c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5MXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt=""></div></td>
+                                <td><h4>Samuel Patterson<br> <span>Oman</span></h4></td>
+                            </tr>
+                            <tr>
+                                <td width="60px"><div class="imgbx"><img src="https://images.unsplash.com/photo-1660909857346-9535962de769?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMjZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt=""></div></td>
+                                <td><h4>Jasmine James <br> <span>India</span></h4></td>
+                            </tr>
+                            <tr>
+                                <td width="60px"><div class="imgbx"><img src="https://images.unsplash.com/photo-1660866838818-09acea60bf64?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMjh8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt=""></div></td>
+                                <td><h4>Patricia Hamilton <br> <span>Italy</span></h4></td>
+                            </tr>
+                            <tr>
+                                <td width="60px"><div class="imgbx"><img src="https://images.unsplash.com/photo-1600871417096-907be6ae187b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMzd8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt=""></div></td>
+                                <td><h4>Paula Reyes <br> <span>Ukrine</span></h4></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>
